@@ -2,11 +2,11 @@
 This code helps to download code to STM32F103C8T6 via ESP32 Serial1.<br/>
 
 ## Pins used in our project: <br/>
-GPIO19 - pin connected to BOOT0 of STM32F103C8T6 (or GD32F103C8T6). <br/>
-GPIO1 - TX pin, connected to CH340 (used for programming ESP32). <br/>
-GPIO3 - RX pin, connected to CH340. <br/>
-GPIO16 - from Serial1, used for transmit the data to STM32 (GD32) -> PA10. <br/>
-GPIO17 - from Serial1, used for recieve the data from STM32 (GD32) -> PA9. <br/>
+GPIO19 <-> BOOT0 of STM32F103C8T6 (or GD32F103C8T6). <br/>
+GPIO1  <-> TX CH340 (used for programming ESP32). <br/>
+GPIO3  <-> RX CH340. <br/>
+GPIO16 <-> PA10 - from Serial1, used for transmit the data to STM32 (GD32). <br/>
+GPIO17 <-> PA9 - from Serial1, used for recieve the data from STM32 (GD32). <br/>
 **Optional:** GPIO23 - pin for enabling supply of the STM32 (GD32) - *not necessary to realize in your project*. <br/>
 
 ## Using
