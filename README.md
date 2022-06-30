@@ -14,7 +14,7 @@ Using of PA10 and PA9 of STM32 (GD32) is necessary, becasuse in accordance to da
 
 The binary files can be donwloaded to STM32 (GD32) with help of the Flash Loader Demonstrator or STM32CubeProgrammer in UART boot mode (don't forget to use baud rate less, than default value!). These programs require choosing of COM-port, with that ESP32 is connected. <br/>
 
-After every downloading resetting of the of the ESP32 is required.
+After every downloading resetting of the ESP32 is required.
 
 ## Tested cases
 **Baud rate:**
