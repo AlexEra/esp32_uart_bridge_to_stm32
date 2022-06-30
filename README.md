@@ -25,7 +25,7 @@ After every downloading resetting of the ESP32 is required.
 ## Notes
 This code contains commented lines, that were used instead of <br/>
 ```digitalWrite(16, digitalRead(3));
-    digitalWrite(1, digitalRead(17));```
+    digitalWrite(1, digitalRead(17));``` <br/>
 to download binary files with help of ESP32 registers. These programs have the same results of downloading. <br/>
  
 
