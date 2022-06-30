@@ -12,7 +12,7 @@ GPIO17 <-> PA9 - from Serial1, used for recieve the data from STM32 (GD32). <br/
 ## Using
 Using of PA10 and PA9 of STM32 (GD32) is necessary, becasuse in accordance to datasheet this microcontroller has system bootloader, connected with USART0 (pins PA10 and PA9). With ESP32 you can use any available pin (in accordance to the datasheet). This project used Serial1 pins. <br/>
 
-The binary files can be donwloaded to STM32 (GD32) with help of the Flash Loader Demonstrator or STM32CubeProgrammer in UART boot mode (don't forget to use baud rate less, than default value!). These programs require choosing of COM-port, with that ESP32 is connected. <br/>
+The binary files can be donwloaded to STM32 (GD32) with help of the Flash Loader Demonstrator or STM32CubeProgrammer in UART boot mode (there is note below about baud rate, one should use another speed). These programs require choosing of COM-port, with that ESP32 is connected. <br/>
 
 After every downloading resetting of the ESP32 is required.
 
