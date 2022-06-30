@@ -21,7 +21,9 @@ The binary files can be donwloaded to STM32 (GD32) with help of the Flash Loader
 3. 1200: successfull downloading
 
 ## Notes
-This code contains commented lines, that were used instead of
+### This code contains commented lines, that were used instead of
 `digitalWrite(16, digitalRead(3));
  digitalWrite(1, digitalRead(17));`
  to download binary files with help of ESP32 registers. These programs have the same results of downloading. <br/>
+ 
+ ### After every downloading resetting of the of the ESP32 is required.
